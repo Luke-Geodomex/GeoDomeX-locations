@@ -1,0 +1,141 @@
+[
+    {
+        "type": "business",
+        "name": "The Churchill Hotel",
+        "businessType": "Hotel/Hospitality",
+        "address": "65 Bootham, Clifton, York YO30 7DQ",
+        "phone": "+44 1904 644456",
+        "website": "http://www.churchillhotel.com",
+        "lat": 53.965726,
+        "lng": -1.090224,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/IMG_1231-2-2.jpg?v=1731515884"
+    },
+    {
+        "type": "business",
+        "name": "Jacks at Woodlakes",
+        "businessType": "Bar/Restaurant",
+        "address": "Woodlakes Leisure Park, Holme Road, King's Lynn PE34 3PX",
+        "phone": "+44 1553 811763",
+        "website": "http://www.jacksatwoodlakes.co.uk",
+        "lat": 52.640708,
+        "lng": 0.385172,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/191922575-2.webp?v=1731516023"
+    },
+    {
+        "type": "business",
+        "name": "Siya Garden Lounge",
+        "businessType": "Outdoor Lounge, Dining & Events Venue",
+        "address": "112 Saltley Rd, Birmingham B7 4TE",
+        "phone": "+44 7915 026613",
+        "website": "",
+        "lat": 52.492957,
+        "lng": -1.867897,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/gempages_491629645448348558-e6615aa0-fbe3-463c-b87d-2d79ca01638b.jpg?v=1728552515"
+    },
+    {
+        "type": "business",
+        "name": "Natures Edge Cabin",
+        "businessType": "Airbnb Stays",
+        "address": "Stocks Rd, Alfrick Pound, Worcester WR6 5EZ",
+        "phone": "+44 7429 490887",
+        "website": "https://naturesedgecabin.co.uk/explore/#dome",
+        "lat": 52.1663932800293,
+        "lng": -2.3767359256744385,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/gempages_491629645448348558-c9d34004-ac11-44ee-bab1-e67c7d2e9fd5.jpg?v=1728552482"
+    },
+    {
+        "type": "business",
+        "name": "Thompson Hall Retreat",
+        "businessType": "Airbnb Stays",
+        "address": "Hall Ln, Thetford IP24 1QA",
+        "phone": "+44 1953 488731",
+        "website": "http://www.thompsonhallretreat.co.uk",
+        "lat": 52.524293,
+        "lng": 0.831627,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/IMG_0583-min.jpg?v=1731516132"
+    },
+    {
+        "type": "business",
+        "name": "The Cosy Nest",
+        "businessType": "Airbnb Stays",
+        "address": "",
+        "phone": "",
+        "website": "https://www.airbnb.co.uk/rooms/1107948889416496322",
+        "lat": 52.2757688,
+        "lng": 0.3282566,
+        "image": ""
+    },
+    {
+        "type": "business",
+        "name": "Riding House Bloomsbury",
+        "businessType": "Bar/Restaurant",
+        "address": "1, Brunswick Centre, Bernard St, London WC1N 1AF",
+        "phone": "+44 20 3829 8333",
+        "website": "https://www.riding.house/restaurant/bloomsbury",
+        "lat": 51.524273,
+        "lng": -0.123529,
+        "image": ""
+    },
+    {
+        "type": "business",
+        "name": "Peppe Restaurant Kingston",
+        "businessType": "Bar/Restaurant",
+        "address": "174 Tudor Dr, Kingston upon Thames KT2 5QG",
+        "phone": "+44 20 8546 3885",
+        "website": "http://peppekingston.com",
+        "lat": 51.426965,
+        "lng": -0.299221,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/download-2.png?v=1731516232"
+    },
+    {
+        "type": "business",
+        "name": "Chilham Castle",
+        "businessType": "Hospitality Venue",
+        "address": "Chilham Park, Chilham, Canterbury CT4 8DB",
+        "phone": "+44 1227 733100",
+        "website": "http://www.chilham-castle.co.uk",
+        "lat": 51.243348,
+        "lng": 0.957887,
+        "image": ""
+    },
+    {
+        "type": "business",
+        "name": "Quob Park Estate",
+        "businessType": "Hotel & Spa",
+        "address": "Titchfield Ln, Wickham, Fareham PO17 5PG",
+        "phone": "+44 1329 836720",
+        "website": "http://www.quobpark.com",
+        "lat": 50.895926,
+        "lng": -1.212782,
+        "image": ""
+    },
+    {
+        "type": "business",
+        "name": "Honiton Garden Centre and Café",
+        "businessType": "Garden Centre",
+        "address": "Tower Rd, Honiton EX14 9TN",
+        "phone": "+44 1404 42975",
+        "website": "http://honitongardencentre.co.uk",
+        "lat": 50.798386,
+        "lng": -3.160881,
+        "image": ""
+    },
+    {
+        "type": "showroom",
+        "street": "Williams Road",
+        "presenter": "Williams Road Airbnb",
+        "phone": "+44 7413 004143",
+        "lat": 50.83690643310547,
+        "lng": -0.25322225689888,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/download-3-2-2.png?v=1731516683"
+    },
+    {
+        "type": "showroom",
+        "street": "Beech Road",
+        "presenter": "Stuart Moorewood",
+        "phone": "+44 7878 377552",
+        "lat": 53.477414,
+        "lng": -2.598415,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Banner_4-min.jpg?v=1731516804"
+    }
+]
