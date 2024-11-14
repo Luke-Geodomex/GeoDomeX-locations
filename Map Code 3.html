@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoDomeX Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map and center it on the UK, disabling scroll zoom
+        const map = L.map('map', { scrollWheelZoom: false }).setView([54.5, -2.5], 6);
+
+        // Set up CartoDB Positron tiles for a grey and white map style
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }).addTo(map);
+
+        // Define custom icons for different types of domes
+        const icons = {
+            showroom: L.icon({
+                iconUrl: 'https://cdn.shopify.com/s/files/1/0573/1365/7011/files/icons8-map-pin-40_blue.png?v=1731510742',
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                popupAnchor: [0, -40]
+            }),
+            business: L.icon({
+                iconUrl: 'https://cdn.shopify.com/s/files/1/0573/1365/7011/files/icons8-map-pin-40_red.png?v=1731510742',
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                popupAnchor: [0, -40]
+            })
+        };
+
+        // Fetch location data from the JSON file
+        fetch('https://luke-geodomex.github.io/GeoDomeX-locations/locations.json')
+            .then(response => response.json())
+            .then(locations => {
+                locations.forEach(location => {
+                    const icon = icons[location.type] || icons.business;
+
+                    // Create marker
+                    const marker = L.marker([location.lat, location.lng], { icon }).addTo(map);
+
+                    // Generate pop-up content
+                    let popupContent = `<div style="text-align: center;">`;
+
+                    if (location.type === "showroom") {
+                        popupContent += `
+                            <strong>GeoDomeX (${location.street}) Showroom</strong><br>
+                            Presented by ${location.presenter}<br>
+                            Guided Experience by Appointment Only<br>
+                            Contact to book: ${location.phone}<br>
+                            ${location.image ? `<img src="${location.image}" alt="Showroom Image" style="width:100px; height:auto; margin-top:5px;">` : ""}
+                        `;
+                    } else if (location.type === "business") {
+                        popupContent += `
+                            <strong>${location.name}</strong><br>
+                            ${location.businessType}<br>
+                            ${location.address}<br>
+                            ${location.website ? `<a href="${location.website}" target="_blank">${location.website}</a><br>` : ""}
+                            ${location.phone}<br>
+                            ${location.image ? `<img src="${location.image}" alt="Business Image" style="width:100px; height:auto; margin-top:5px;">` : ""}
+                        `;
+                    }
+
+                    popupContent += `</div>`;
+
+                    // Bind pop-up to marker
+                    marker.bindPopup(popupContent);
+                    marker.on('click', function() {
+                        marker.openPopup();
+                    });
+                });
+            })
+            .catch(error => console.error('Error fetching location data:', error));
+    </script>
+</body>
+</html>
