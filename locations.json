@@ -138,7 +138,7 @@
         "lng": -2.598415,
         "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Screenshot_2024-11-15_at_16.20.23.png?v=1731687709"
     },
-        {
+    {
         "type": "business",
         "name": "Skuna Igloo Boats",
         "businessType": "Floating Restaurant",
@@ -149,8 +149,7 @@
         "lng": -0.025463,
         "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Skuna_Boats_1.jpg?v=1733396663"
     },
-
- {
+    {
         "type": "business",
         "name": "Heroica Pizza Bus",
         "businessType": "Restaurant",
