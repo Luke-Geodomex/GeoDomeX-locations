@@ -137,5 +137,28 @@
         "lat": 53.477414,
         "lng": -2.598415,
         "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Screenshot_2024-11-15_at_16.20.23.png?v=1731687709"
-    }
+    },
+        {
+        "type": "business",
+        "name": "Skuna Igloo Boats",
+        "businessType": "Floating Restaurant",
+        "address": "West India Quay, Off Hertsmere Rd, Canary Wharf, London, E14 4AL",
+        "phone": "+44 20 7205 2827",
+        "website": "https://www.skunaboats.com",
+        "lat": 51.506371,
+        "lng": -0.025463,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Skuna_Boats_1.jpg?v=1733396663"
+    },
+
+ {
+        "type": "business",
+        "name": "Heroica Pizza Bus",
+        "businessType": "Restaurant",
+        "address": "Western Gateway, Royal Victoria Dock, London, E16 1FA",
+        "phone": "",
+        "website": "https://www.heroicalounge.com",
+        "lat": 51.509329,
+        "lng": 0.037012,
+        "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Heroica_bus_1.jpg?v=1733396663”
+    },
 ]
