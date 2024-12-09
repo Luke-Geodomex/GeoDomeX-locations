@@ -139,6 +139,15 @@
         "image": "https://cdn.shopify.com/s/files/1/0573/1365/7011/files/Screenshot_2024-11-15_at_16.20.23.png?v=1731687709"
     },
     {
+        "type": "showroom",
+        "street": "Greenlees Gardens",
+        "presenter": "Fiona Baker",
+        "phone": "fiona.baker1974@gmail.com",
+        "lat": 55.80766,
+        "lng": -4.17245,
+        "image": ""
+    },
+    {
         "type": "business",
         "name": "Skuna Igloo Boats",
         "businessType": "Floating Restaurant",
